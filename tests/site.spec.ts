@@ -277,6 +277,8 @@ test('viewport changes remove and recreate the category pin without duplicates',
   await ready(page)
   await expect(page.locator('.pin-spacer')).toHaveCount(1)
   await page.setViewportSize({ width: 1024, height: 700 })
+  await expect(page.locator('.pin-spacer')).toHaveCount(1)
+  await page.setViewportSize({ width: 1024, height: 450 })
   await expect(page.locator('.pin-spacer')).toHaveCount(0)
   await page.getByRole('navigation', { name: 'Navegación principal' }).getByRole('link', { name: 'Trabajos', exact: true }).click()
   await expect(page.getByRole('heading', { name: 'De aquí. Con mucha historia.' })).toBeInViewport()

@@ -12,7 +12,7 @@ export function useMotion(root: RefObject<HTMLDivElement | null>) {
     if (!root.current) return
     const mm = gsap.matchMedia()
     const context = gsap.context(() => {
-      mm.add('(min-width: 1000px) and (min-height: 800px) and (prefers-reduced-motion: no-preference)', () => {
+      mm.add('(min-width: 1000px) and (min-height: 480px) and (prefers-reduced-motion: no-preference)', () => {
         const shell = root.current!.querySelector<HTMLElement>('.collections-shell')!
         const viewport = shell.querySelector<HTMLElement>('.collections-viewport')!
         const track = shell.querySelector<HTMLElement>('.collections-track')!

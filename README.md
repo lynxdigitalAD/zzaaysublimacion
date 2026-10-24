@@ -99,6 +99,10 @@ El desplazamiento es nativo y permite seguir bajando por la página desde las im
 
 A 390 px la sección pasa de aproximadamente 3257 a 868 px de alto, una reducción del 73 %. Se comprobaron once anchuras entre 320 y 1920 px, sin desbordamientos y con todos los textos dentro de las fichas; las dimensiones del escritorio coinciden con las anteriores en cuatro anchuras. Compilación y 27 pruebas E2E correctas, incluidas pruebas de gestos táctiles emulados en ambos sentidos, scroll vertical, foco, movimiento reducido y cambios entre móvil y escritorio. Capturas y mediciones en `.qa/mobile-carousel/`; [detalle de la revisión](docs/mobile-carousel-review.md). Safari, Firefox y dispositivos físicos siguen pendientes.
 
+## Scroll horizontal de categorías en laptops
+
+La sección «El momento lo eliges tú» ahora activa su recorrido horizontal en escritorio desde **1000 × 480 px** de ventana útil, para que funcione en laptops a zoom normal. Entre 480 y 799 px de alto se ajustan las imágenes y espacios para mantener visibles título, frases, controles y progreso. Las ventanas más bajas y el movimiento reducido conservan contenido estático; el carrusel táctil móvil permanece operativo. Compilación y 38 pruebas E2E correctas. [Causa, corrección y validación del scroll en laptops](docs/category-laptop-scroll-review.md).
+
 ## Hero con el video restaurado
 
 El bloque que iba de «Ideas que se vuelven realidad» a «Y otros que, además, se sienten» se sustituyó por la composición de la nueva referencia: video de fondo, título blanco/rosa a la izquierda y descripción. Por petición posterior se eliminaron los enlaces Crear mi taza / Ver trabajos y sus estilos. La franja inferior vigente dice «Tu idea. Tu estilo.» / «Una taza. Mil momentos.», con ondas rosas en los extremos y una taza pequeña entre líneas finas.

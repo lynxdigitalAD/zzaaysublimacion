@@ -96,7 +96,7 @@ button, input, textarea, select { font: inherit; }
 .site-root .collections-progress { width: 180px; height: 2px; background: #d1cbd4; display: none; }
 .site-root .collections-progress-fill { display: block; height: 100%; background: var(--ink); transform: scaleX(.2); transform-origin: left; }
 .site-root .collections-counter { display: none; }
-@media (min-width: 1000px) and (min-height: 800px) and (prefers-reduced-motion: no-preference) {
+@media (min-width: 1000px) and (min-height: 480px) and (prefers-reduced-motion: no-preference) {
   .site-root .collections-shell { padding-block: 20px 18px; }
   .site-root .collections-heading { margin-bottom: 20px; }
   .site-root .collections-heading h2 { display: flex; gap: 14px; }
@@ -104,13 +104,24 @@ button, input, textarea, select { font: inherit; }
   .site-root .collections-note { font-size: 20px; line-height: 1.6; }
   .site-root .collections-viewport { overflow: clip; }
   .site-root .collections-track { --photo-height: max(300px, calc(100svh - 420px)); display: flex; gap: 28px; width: max-content; }
-  .site-root .collection { width: calc(var(--photo-height) * .8); flex-shrink: 0; }
+  .site-root .collection { width: calc(var(--photo-height) * .8); min-width: clamp(260px, 24vw, 360px); flex-shrink: 0; }
   .site-root .collection img { height: var(--photo-height); width: 100%; object-fit: contain; }
   .site-root .collection h3 { font-size: 32px; }
   .site-root .collection-caption { gap: 12px; }
   .site-root .collection-caption p { max-width: none; font-size: 20px; line-height: 1.6; margin-top: 10px; }
   .site-root .collections-bottom { display: flex; margin-top: 20px; font-size: 14px; letter-spacing: .02em; gap: 24px; }
   .site-root .collections-progress, .site-root .collections-counter { display: block; }
+}
+
+/* Laptop browser windows have less usable height at normal zoom. */
+@media (min-width: 1000px) and (min-height: 480px) and (max-height: 799px) and (prefers-reduced-motion: no-preference) {
+  .site-root .collections-shell { padding-block: 12px; }
+  .site-root .collections-heading { margin-bottom: 12px; }
+  .site-root .collections-track { --photo-height: clamp(120px, calc(100svh - 400px), 360px); }
+  .site-root .collection h3 { font-size: 30px; }
+  .site-root .collection-caption { padding-top: 12px; }
+  .site-root .collection-caption p { font-size: 18px; line-height: 1.5; margin-top: 8px; }
+  .site-root .collections-bottom { margin-top: 12px; }
 }
 
 /* Real project: a compact main view, two interchangeable thumbnails and a lightbox. */
