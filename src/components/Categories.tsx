@@ -1,4 +1,5 @@
 import { useRef, type CSSProperties } from 'react'
+import { publicAsset } from '../data/assets'
 import { categories, whatsappUrl } from '../data/business'
 import { Icon } from './Icon'
 import { revealCollection } from '../animation/navigation'
@@ -12,7 +13,7 @@ export function Categories() {
       <div className="collections-heading page-width" data-reveal><h2 id="categories-title">El momento<br /><em>lo eliges tú.</em></h2><p className="collections-note">Para celebrar. Para agradecer.<br />Para decir: pensé en ti.</p></div>
       <div className="collections-viewport page-width" ref={viewport} tabIndex={mobile ? 0 : undefined} role={mobile ? 'region' : undefined} aria-label={mobile ? 'Explorar categorías' : undefined} aria-roledescription={mobile ? 'carrusel' : undefined}><div className="collections-track">
         {categories.map((category, index) => <article className="collection" key={category.id} data-reveal="fade" style={{ '--collection-tone': category.tone } as CSSProperties}>
-          <figure><img src={`/media/concepts/${category.id}-1280.webp`} srcSet={`/media/concepts/${category.id}-640.webp 640w, /media/concepts/${category.id}-1280.webp 1280w`} sizes="(max-width: 374px) calc(100vw - 64px), (max-width: 472px) calc(100vw - 72px), (max-width: 768px) 400px, (max-width: 999px) 45vw, 440px" alt={`Concepto generado con IA para ${category.name.toLowerCase()}: una taza blanca personalizada en una escenografía de estudio.`} loading="lazy" width="1024" height="1280" /><span className="collection-number">0{index + 1} / 05</span></figure>
+          <figure><img src={publicAsset(`/media/concepts/${category.id}-1280.webp`)} srcSet={`${publicAsset(`/media/concepts/${category.id}-640.webp`)} 640w, ${publicAsset(`/media/concepts/${category.id}-1280.webp`)} 1280w`} sizes="(max-width: 374px) calc(100vw - 64px), (max-width: 472px) calc(100vw - 72px), (max-width: 768px) 400px, (max-width: 999px) 45vw, 440px" alt={`Concepto generado con IA para ${category.name.toLowerCase()}: una taza blanca personalizada en una escenografía de estudio.`} loading="lazy" width="1024" height="1280" /><span className="collection-number">0{index + 1} / 05</span></figure>
           <div className="collection-caption"><div><h3>{category.name}</h3><p>{category.phrase}</p></div><a className="circle-link" onFocus={event => revealCollection(event.currentTarget)} href={whatsappUrl(`¡Hola, Zzaay! Me gustaría cotizar tazas de 11 oz para ${category.name.toLowerCase()}. ¿Podemos platicar del diseño y la cantidad?`)} target="_blank" rel="noopener noreferrer" aria-label={`Personalizar tazas para ${category.name.toLowerCase()}`}><Icon /></a></div>
         </article>)}
       </div></div>

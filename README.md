@@ -4,7 +4,7 @@ Nueva página editorial en español de México, desarrollada en esta carpeta con
 
 ## Publicación
 
-Código subido al repositorio privado [lynxdigitalAD/zzaaysublimacion](https://github.com/lynxdigitalAD/zzaaysublimacion), rama `main`. La configuración de Netlify está lista para compilar con Node.js 24 y publicar `dist/`. La dirección solicitada es `zzaaysublimacion.netlify.app`; todavía falta vincular la cuenta de Netlify, verificar la disponibilidad del nombre y completar el despliegue. No se ha confirmado una URL pública. [Preparación y estado de la publicación](docs/publicacion-netlify.md).
+Repositorio [lynxdigitalAD/zzaaysublimacion](https://github.com/lynxdigitalAD/zzaaysublimacion), rama `main`. La publicación utiliza GitHub Pages y GitHub Actions. `npm run build:pages` compila para `/zzaaysublimacion/`; el desarrollo local conserva `/`. Cada push a `main` vuelve a compilar y publicar. [Configuración, validación y estado del despliegue](docs/publicacion-github-pages.md).
 
 ## Desarrollo local
 

@@ -1,3 +1,4 @@
+import { publicAsset } from '../data/assets'
 import { useState, type FormEvent } from 'react'
 import { faqs, whatsappUrl } from '../data/business'
 import { occasions, orderHeadingScene } from '../data/premiumDesign'
@@ -14,7 +15,7 @@ export function Orders() {
   const choose = (value: string) => { setOccasion(value); setPrepared(false) }
   return <section id="pedidos" className="orders section-anchor" tabIndex={-1} aria-labelledby="orders-title"><div className="request-studio page-width">
     <header className="request-heading" data-reveal>
-      <picture className="request-heading-art" aria-hidden="true"><source media="(max-width: 768px)" srcSet={`${orderHeadingScene}-480.webp 480w, ${orderHeadingScene}-960.webp 960w`} sizes="(max-width: 504px) 54vw, 260px" /><img src="/assets/decorations/transparent.svg" width="960" height="960" alt="" loading="lazy" decoding="async" /></picture>
+      <picture className="request-heading-art" aria-hidden="true"><source media="(max-width: 768px)" srcSet={`${orderHeadingScene}-480.webp 480w, ${orderHeadingScene}-960.webp 960w`} sizes="(max-width: 504px) 54vw, 260px" /><img src={publicAsset('/assets/decorations/transparent.svg')} width="960" height="960" alt="" loading="lazy" decoding="async" /></picture>
       <h2 id="orders-title">Hagamos algo <em>muy tuyo.</em></h2>
       <p>Un regalo. Una celebración. Una idea para tu negocio. Todo empieza con una buena plática.</p>
     </header>
@@ -33,7 +34,7 @@ export function Orders() {
           <div className="request-summary" aria-live="polite"><span>Tu punto de partida</span><strong>{quantity || '—'} {quantity === '1' ? 'taza' : 'tazas'} · {selected?.label ?? 'Otra idea'}</strong></div>
         </div>
       </div>
-      <div className="request-send" data-reveal><p><strong>Taza de cerámica · 11 oz</strong>El precio se confirma según el diseño y la cantidad. Revisamos disponibilidad y entrega contigo antes de confirmar.</p><div><button className="button button-cream" type="submit"><img src="/assets/icons/brands/whatsapp-green.svg" width="24" height="24" alt="" /><span>Platiquemos por WhatsApp</span><Icon /></button><p className="form-explanation">Revisa y envía tu mensaje en WhatsApp. No confirma ni cobra un pedido.</p></div></div>
+      <div className="request-send" data-reveal><p><strong>Taza de cerámica · 11 oz</strong>El precio se confirma según el diseño y la cantidad. Revisamos disponibilidad y entrega contigo antes de confirmar.</p><div><button className="button button-cream" type="submit"><img src={publicAsset('/assets/icons/brands/whatsapp-green.svg')} width="24" height="24" alt="" /><span>Platiquemos por WhatsApp</span><Icon /></button><p className="form-explanation">Revisa y envía tu mensaje en WhatsApp. No confirma ni cobra un pedido.</p></div></div>
       <div className="request-feedback"><p className="form-feedback" role="status">{prepared ? 'Tu mensaje está preparado. Si WhatsApp no se abrió, usa el enlace de abajo.' : ''}</p>{prepared && <a className="text-link" href={whatsappUrl(message)} target="_blank" rel="noopener noreferrer">Abrir mi mensaje en WhatsApp <Icon /></a>}</div>
     </form>
   </div></section>

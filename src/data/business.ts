@@ -1,3 +1,4 @@
+import { publicAsset } from './assets'
 export const business = {
   name: 'Sublimación y Diseño Zzaay',
   location: 'Tulancingo, Hidalgo, México',
@@ -9,8 +10,8 @@ export const whatsappUrl = (message = '¡Hola, Zzaay! Me gustaría personalizar 
   `https://wa.me/${business.whatsapp}?text=${encodeURIComponent(message)}`
 
 export const socialLinks = [
-  { platform: 'Facebook', name: 'Sublimación y Diseño Zzaay', handle: '', image: '/assets/icons/brands/facebook-primary.png', href: 'https://www.facebook.com/profile.php?id=61594413954323' },
-  { platform: 'TikTok', name: 'Sublim Zzaay', handle: '@sublimzzaay', image: '/assets/icons/brands/tiktok-original.png', href: 'https://www.tiktok.com/@sublimzzaay?is_from_webapp=1&sender_device=pc' },
+  { platform: 'Facebook', name: 'Sublimación y Diseño Zzaay', handle: '', image: publicAsset('/assets/icons/brands/facebook-primary.png'), href: 'https://www.facebook.com/profile.php?id=61594413954323' },
+  { platform: 'TikTok', name: 'Sublim Zzaay', handle: '@sublimzzaay', image: publicAsset('/assets/icons/brands/tiktok-original.png'), href: 'https://www.tiktok.com/@sublimzzaay?is_from_webapp=1&sender_device=pc' },
 ] as const
 
 export const navigation = [
@@ -31,9 +32,9 @@ export const categories = [
 ] as const
 
 export const ideas = [
-  { id: 'frase', imageBase: '/media/personalization-scenes/frase', label: 'Una frase', title: 'Eso que solo ustedes entienden.', copy: 'Una broma compartida, unas palabras bonitas o tu frase de todos los días. Tú pones la idea; juntos le damos forma.', alt: 'Escena conceptual generada de una taza con «Haz que hoy cuente.» sobre un pedestal vino, con listón y fondo cálido.' },
-  { id: 'recuerdo', imageBase: '/media/personalization-scenes/recuerdo', label: 'Un recuerdo', title: 'Un momento que se queda cerca.', copy: 'Una fecha, un lugar o una historia que te gustaría tener a mano. Cuéntanos qué significa para ti.', alt: 'Escena conceptual generada de una taza con una fotografía de viaje sobre piedra clara, acompañada de lino y recuerdos fotográficos.' },
-  { id: 'marca', imageBase: '/media/personalization-scenes/marca', label: 'Mi marca', title: 'Tu identidad, hasta en el café.', copy: 'Compártenos tu logo y la intención del detalle. Revisamos contigo cómo llevar tu identidad a una taza.', alt: 'Escena conceptual generada de una taza con la marca ficticia bruma sobre una plataforma azul, con papelería vino y crema.' },
+  { id: 'frase', imageBase: publicAsset('/media/personalization-scenes/frase'), label: 'Una frase', title: 'Eso que solo ustedes entienden.', copy: 'Una broma compartida, unas palabras bonitas o tu frase de todos los días. Tú pones la idea; juntos le damos forma.', alt: 'Escena conceptual generada de una taza con «Haz que hoy cuente.» sobre un pedestal vino, con listón y fondo cálido.' },
+  { id: 'recuerdo', imageBase: publicAsset('/media/personalization-scenes/recuerdo'), label: 'Un recuerdo', title: 'Un momento que se queda cerca.', copy: 'Una fecha, un lugar o una historia que te gustaría tener a mano. Cuéntanos qué significa para ti.', alt: 'Escena conceptual generada de una taza con una fotografía de viaje sobre piedra clara, acompañada de lino y recuerdos fotográficos.' },
+  { id: 'marca', imageBase: publicAsset('/media/personalization-scenes/marca'), label: 'Mi marca', title: 'Tu identidad, hasta en el café.', copy: 'Compártenos tu logo y la intención del detalle. Revisamos contigo cómo llevar tu identidad a una taza.', alt: 'Escena conceptual generada de una taza con la marca ficticia bruma sobre una plataforma azul, con papelería vino y crema.' },
 ]
 
 export const personalizationSteps = [

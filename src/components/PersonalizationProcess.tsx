@@ -1,3 +1,4 @@
+import { publicAsset } from '../data/assets'
 import { personalizationSteps } from '../data/business'
 import { processIntro, processScenes } from '../data/processScenes'
 import { Icon } from './Icon'
@@ -5,7 +6,7 @@ import { ProcessSymbol } from './ProcessSymbol'
 import './ProcessSteps.css'
 
 // Desktop selects a transparent pixel instead of downloading mobile-only scenes.
-const desktopPixel = '/assets/decorations/transparent.svg'
+const desktopPixel = publicAsset('/assets/decorations/transparent.svg')
 
 export function PersonalizationProcess() {
   return <div className="personalization-process" data-reveal>
