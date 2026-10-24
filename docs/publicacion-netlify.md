@@ -30,6 +30,8 @@ La web publicada puede ser pública aunque el repositorio de código sea privado
 - Compilación de producción: correcta.
 - Pruebas automatizadas: 28 correctas en la ejecución general y 2 correctas al repetir los dos casos que agotaron el tiempo inicial de carga.
 - Repositorio privado: `https://github.com/lynxdigitalAD/zzaaysublimacion`.
-- Subida inicial del código: preparada, pendiente de confirmar el push.
-- Acceso a Netlify y publicación pública: pendientes.
+- Subida inicial del código: confirmada en la rama `main`; el código y los recursos están en GitHub.
+- Versión compilada revisada a 390 y 1440 px: sin desbordamiento, errores de ejecución ni recursos fallidos; logotipo, las tres versiones del video y galería responden HTTP 200. Los enlaces de WhatsApp y redes conservan sus destinos.
+- Acceso a Netlify: solicitud de inicio de sesión preparada mediante la pantalla oficial; pendiente de que el propietario vincule su cuenta.
+- Publicación pública: pendiente del acceso a Netlify y de comprobar la disponibilidad del nombre.
 - URL pública y recursos desde internet: todavía sin comprobar.

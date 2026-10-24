@@ -2,6 +2,10 @@
 
 Nueva página editorial en español de México, desarrollada en esta carpeta con React, Vite, TypeScript, GSAP/ScrollTrigger y CSS. Conserva los tres archivos de skills y los recursos originales del usuario.
 
+## Publicación
+
+Código subido al repositorio privado [lynxdigitalAD/zzaaysublimacion](https://github.com/lynxdigitalAD/zzaaysublimacion), rama `main`. La configuración de Netlify está lista para compilar con Node.js 24 y publicar `dist/`. La dirección solicitada es `zzaaysublimacion.netlify.app`; todavía falta vincular la cuenta de Netlify, verificar la disponibilidad del nombre y completar el despliegue. No se ha confirmado una URL pública. [Preparación y estado de la publicación](docs/publicacion-netlify.md).
+
 ## Desarrollo local
 
 ```powershell
