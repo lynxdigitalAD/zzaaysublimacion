@@ -25,5 +25,7 @@ La condición anterior se reprodujo a 1366 × 633, 1536 × 695, 1280 × 600 y 10
 - Se comprueban el contenido completo en altura, el recorrido hacia delante y atrás, el foco de la última categoría, los enlaces a otras secciones y la ausencia de desbordamiento del documento.
 - Capturas, medidas antes/después y fotogramas de revisión en `.qa/category-height/`, fuera de Git.
 - Revisión de Chrome, Edge y WebKit: 24 pruebas específicas correctas (ocho por navegador o motor). Son pruebas automatizadas de ventanas con zoom predeterminado; falta que el usuario confirme el resultado en la PC filmada.
+- Publicación [40054469299](https://github.com/lynxdigitalAD/zzaaysublimacion/actions/runs/40054469299): correcta, revisión `86415cb8926a1dc70b235c2fcf6464c4b9e162e5`.
+- Verificación de la página pública sin sesión a 1366 × 633 y 1536 × 695: HTTP 200, sección completa, avance horizontal y regreso a la posición inicial. A 390 × 844 se confirma HTTP 200, sin pin ni desbordamiento. Resultados en `.qa/category-height/public.json`.
 
 La preparación de `zzaaysublimacion.github.io` sigue separada en la rama `codex/dominio-zzaay`, pendiente de que exista la organización de Zzaay.
