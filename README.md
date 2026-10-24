@@ -4,7 +4,7 @@ Nueva página editorial en español de México, desarrollada en esta carpeta con
 
 ## Publicación
 
-Repositorio [lynxdigitalAD/zzaaysublimacion](https://github.com/lynxdigitalAD/zzaaysublimacion), rama `main`. La publicación utiliza GitHub Pages y GitHub Actions. `npm run build:pages` compila para `/zzaaysublimacion/`; el desarrollo local conserva `/`. Cada push a `main` vuelve a compilar y publicar. [Configuración, validación y estado del despliegue](docs/publicacion-github-pages.md).
+Página pública: **[https://lynxdigitalad.github.io/zzaaysublimacion/](https://lynxdigitalad.github.io/zzaaysublimacion/)**. Repositorio público [lynxdigitalAD/zzaaysublimacion](https://github.com/lynxdigitalAD/zzaaysublimacion), rama `main`. La publicación utiliza GitHub Pages y GitHub Actions. `npm run build:pages` compila para `/zzaaysublimacion/`; el desarrollo local conserva `/`. Cada push de código a `main` vuelve a compilar y publicar; los cambios exclusivamente en README o documentación no disparan otro despliegue. [Configuración, validación y estado del despliegue](docs/publicacion-github-pages.md).
 
 ## Desarrollo local
 

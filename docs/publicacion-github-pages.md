@@ -2,7 +2,7 @@
 
 Repositorio: `lynxdigitalAD/zzaaysublimacion`, rama `main`.
 
-Dirección prevista: `https://lynxdigitalad.github.io/zzaaysublimacion/`.
+Página pública verificada: [https://lynxdigitalad.github.io/zzaaysublimacion/](https://lynxdigitalad.github.io/zzaaysublimacion/).
 
 ## Configuración
 
@@ -22,4 +22,7 @@ Dirección prevista: `https://lynxdigitalad.github.io/zzaaysublimacion/`.
 - `npm run test:e2e`: 30 pruebas correctas, incluyendo navegación, scroll inverso, movimiento reducido, galería y video.
 - Vista compilada servida bajo `/zzaaysublimacion/`, comprobada a 390 y 1440 px: HTTP 200, sin desbordamiento, errores de ejecución ni imágenes fallidas. Logotipo, galería y las tres variantes del video responden correctamente.
 - El plan de GitHub exige un repositorio público para esta publicación; el repositorio pasa a público con la activación de Pages.
-- Despliegue y acceso público sin sesión: pendientes de completar.
+- Despliegue [40050940228](https://github.com/lynxdigitalAD/zzaaysublimacion/actions/runs/40050940228): completado correctamente, revisión `d58bfe1d9aa9843b73beac1d51fb1bbba63b903e`.
+- GitHub Pages confirma `public: true` y HTTPS obligatorio.
+- Acceso público sin cookies ni sesión de GitHub: HTTP 200. Chromium abre la página a 390 y 1440 px con todos los recursos resueltos, sin desbordamiento ni errores de ejecución; se conservan los destinos de WhatsApp y redes.
+- No se modificaron los archivos multimedia ni los estilos visuales para publicar. Las verificaciones públicas se realizaron con Chromium automatizado, no con dispositivos físicos.
