@@ -1,0 +1,55 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-22",
+  "assets": [
+    {
+      "name": "cumpleanos",
+      "prompt": "Commercial product photography for a premium Mexican personalized ceramic mug studio called Zzaay. This is a conceptual product design, not a photograph of a delivered customer project. A physically plausible standard white glossy ceramic 11 oz mug, full body and intact handle visible, beautifully printed graphics on the ceramic surface. Contemporary art-directed still life with tactile materials, sculptural simple set, controlled studio lighting, subtle film grain and realistic shadows. Rich but sophisticated color, generous space around the complete mug, no busy stock-photo backdrop, no people, no watermark or extra branding. Portrait 4:5 composition for a website editorial category panel. High-end advertising photography, not a vector illustration or a website mockup. Scene: warm coral background, magenta ribbon curling naturally on a matte coral pedestal, a few round orange paper confetti pieces on the surface. One white mug with beautifully printed bold magenta words EXACTLY 'HOY SE CELEBRA' and an abstract small orange sun. Position the mug centrally with handle pointing to the right, at a three-quarter view. Sophisticated colorful birthday art direction. Capture ceramic texture and crisp design."
+    },
+    {
+      "name": "bodas",
+      "prompt": "Commercial product photography for a premium Mexican personalized ceramic mug studio called Zzaay. This is a conceptual product design, not a photograph of a delivered customer project. A physically plausible standard white glossy ceramic 11 oz mug, full body and intact handle visible, beautifully printed graphics on the ceramic surface. Contemporary art-directed still life with tactile materials, sculptural simple set, controlled studio lighting, subtle film grain and realistic shadows. Rich but sophisticated color, generous space around the complete mug, no busy stock-photo backdrop, no people, no watermark or extra branding. Portrait 4:5 composition for a website editorial category panel. High-end advertising photography, not a vector illustration or a website mockup. Scene: soft warm ivory backdrop, textured handmade paper, a narrow champagne-gold silk ribbon on a low ivory stone block. One white mug printed with elegant dark espresso serif initials EXACTLY 'A & M' and a delicate botanical olive branch in matte muted gold, not metallic ceramic. Handle visible on right. Refined wedding editorial, gentle side light, real quiet luxury, sculptural asymmetrical composition, no flowers overload."
+    },
+    {
+      "name": "comuniones",
+      "prompt": "Commercial product photography for a premium Mexican personalized ceramic mug studio called Zzaay. This is a conceptual product design, not a photograph of a delivered customer project. A physically plausible standard white glossy ceramic 11 oz mug, full body and intact handle visible, beautifully printed graphics on the ceramic surface. Contemporary art-directed still life with tactile materials, sculptural simple set, controlled studio lighting, subtle film grain and realistic shadows. Rich but sophisticated color, generous space around the complete mug, no busy stock-photo backdrop, no people, no watermark or extra branding. Portrait 4:5 composition for a website editorial category panel. High-end advertising photography, not a vector illustration or a website mockup. Scene: powder blue backdrop and cream travertine platform with a narrow pale blue fabric ribbon and a tiny olive twig on the surface. One white ceramic mug with a delicate small muted-gold Christian cross, subtle olive leaf linework and the small name EXACTLY 'Sofía' in graceful dark brown lettering. Full mug and handle visible at three-quarter view. Tasteful first communion gift concept, light and elegant, physical product photography."
+    },
+    {
+      "name": "regalos",
+      "prompt": "Commercial product photography for a premium Mexican personalized ceramic mug studio called Zzaay. This is a conceptual product design, not a photograph of a delivered customer project. A physically plausible standard white glossy ceramic 11 oz mug, full body and intact handle visible, beautifully printed graphics on the ceramic surface. Contemporary art-directed still life with tactile materials, sculptural simple set, controlled studio lighting, subtle film grain and realistic shadows. Rich but sophisticated color, generous space around the complete mug, no busy stock-photo backdrop, no people, no watermark or extra branding. Portrait 4:5 composition for a website editorial category panel. High-end advertising photography, not a vector illustration or a website mockup. Scene: muted pink background with a deep burgundy textile ribbon and one small closed kraft gift box behind the mug, stylish architectural pink pedestal. One white mug printed in burgundy with the exact phrase 'QUÉ SUERTE TENERTE' in expressive clean typography and one small magenta heart. Mug and handle fully visible, sophisticated affectionate gift concept. Natural-looking studio shadow, strong editorial framing."
+    },
+    {
+      "name": "empresas",
+      "prompt": "Commercial product photography for a premium Mexican personalized ceramic mug studio called Zzaay. This is a conceptual product design, not a photograph of a delivered customer project. A physically plausible standard white glossy ceramic 11 oz mug, full body and intact handle visible, beautifully printed graphics on the ceramic surface. Contemporary art-directed still life with tactile materials, sculptural simple set, controlled studio lighting, subtle film grain and realistic shadows. Rich but sophisticated color, generous space around the complete mug, no busy stock-photo backdrop, no people, no watermark or extra branding. Portrait 4:5 composition for a website editorial category panel. High-end advertising photography, not a vector illustration or a website mockup. Scene: cobalt blue seamless backdrop, a small matte cobalt rectangular block and a thin sheet of translucent white drafting paper, minimalist physical studio set. One white ceramic mug with a crisp contemporary cyan abstract geometric monogram of two offset bars and the exact dark-blue words 'TU MARCA' beneath. Handle fully visible at right. Confident premium corporate branding product concept, no actual existing corporate identity. Dramatic but soft professional studio lighting."
+    }
+  ],
+  "sourceFiles": [
+    {
+      "name": "cumpleanos",
+      "source": "C:\\Users\\jjair\\.codex\\generated_images\\01a1654a-ba64-7de3-9d02-a63668fc3751\\exec-99a74e33-4f30-4fb5-9f7f-55bded1c6d18.png"
+    },
+    {
+      "name": "bodas",
+      "source": "C:\\Users\\jjair\\.codex\\generated_images\\01a1654a-ba64-7de3-9d02-a63668fc3751\\exec-51cfef94-6ed7-42bf-8fc7-715bf406a7b3.png"
+    },
+    {
+      "name": "comuniones",
+      "source": "C:\\Users\\jjair\\.codex\\generated_images\\01a1654a-ba64-7de3-9d02-a63668fc3751\\exec-65588027-2ead-4c80-8012-855d65c6ae52.png"
+    },
+    {
+      "name": "regalos",
+      "source": "C:\\Users\\jjair\\.codex\\generated_images\\01a1654a-ba64-7de3-9d02-a63668fc3751\\exec-c9ec211a-9164-4ecb-b055-91aaf6109163.png"
+    },
+    {
+      "name": "empresas",
+      "source": "C:\\Users\\jjair\\.codex\\generated_images\\01a1654a-ba64-7de3-9d02-a63668fc3751\\exec-26d2c62a-3c1d-496e-82cd-c6665486dd50.png"
+    }
+  ],
+  "publicAssets": [
+    "public/media/concepts/cumpleanos-1280.webp",
+    "public/media/concepts/bodas-1280.webp",
+    "public/media/concepts/comuniones-1280.webp",
+    "public/media/concepts/regalos-1280.webp",
+    "public/media/concepts/empresas-1280.webp"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "tool": "image_gen (built-in)",
+  "intent": "edit",
+  "useCase": "compositing / product-mockup",
+  "provenance": "Generated conceptual scenes based on the three original photographs, now shared by mobile and desktop at the user's request. They are not documentary photographs, and details of the print may differ. Original photographs remain untouched as archived source assets and are no longer rendered in this gallery.",
+  "reference": "User-provided mobile layout screenshot codex-clipboard-2ea9ded2-eab5-43c5-8ad6-7701902c614b.png; used for composition and atmosphere.",
+  "assets": [
+    {
+      "id": "tulancingo-frente",
+      "toolOutput": "C:/Users/jjair/.codex/generated_images/01a1654a-ba64-7de3-9d02-a63668fc3751/exec-3ac8a2a5-352d-43cf-9b45-129bcb36c37c.png",
+      "original": "design-assets/work-mobile-scenes/tulancingo-frente.png",
+      "referencePaths": [
+        "C:/Users/jjair/OneDrive/Datos adjuntos/Documentos/LYNX DIGITAL AD/Pagina/SUBLIMACION Y DISEÑO ZZAAY/public/media/work/tulancingo-frente-1280.webp",
+        "C:/Users/jjair/AppData/Local/Temp/codex-clipboard-2ea9ded2-eab5-43c5-8ad6-7701902c614b.png"
+      ],
+      "outputs": [
+        "public/media/work-mobile-scenes/tulancingo-frente-480.webp",
+        "public/media/work-mobile-scenes/tulancingo-frente-960.webp"
+      ],
+      "prompt": "Use case: compositing / product-mockup. Image 1 is the edit target, an existing photograph of a real white 11 oz Zzaay mug. Image 2 is ONLY a style and layout reference: borrow the warm golden photographic setting, never render its interface, typography, buttons, captions or thumbnail grid. Create ONLY one new clean landscape 5:4 product scene. Keep the mug from Image 1: preserve its ceramic shape, its handle position, the same exact viewing angle, all printed artwork, lettering, colors, proportions and motifs. Do not redraw, replace, simplify, add, or hallucinate any part of the mug print. Change the surroundings to a softly blurred warm honey-gold studio environment with cream/gold bokeh, a small out-of-focus cluster of burgundy and pink flowers along the far left edge and a subtle warm stone tabletop. Keep the short round black product platform below the mug, but remove the gray fabric backdrop and the cable. Soft flattering window light, realistic ceramic, warm but natural colors, editorial product photography. The complete mug and handle must be comfortably inside the composition, occupying about 70 percent of image height with a little breathing room above and on both sides. The black platform can meet the lower edge. Uniform scaling only, never perspective-warp the cup. Center the whole product including handle horizontally. No new text outside the original mug print, no captions, watermarks, logos or graphic overlays. These will be labelled as conceptual generated visualizations on the website, not documentary photographs.\nThis is VIEW 01: keep the handle on the LEFT, the red/yellow Tulanbús on the upper front, the café de olla artwork beneath, and the cathedral on the right of the printed design.",
+      "originalSha256": "5800006c3e62da1668473af0c6cb82255b9424cad1c8a2e3c0e23623b729f688",
+      "outputSha256": {
+        "public/media/work-mobile-scenes/tulancingo-frente-480.webp": "645cbe23f42c22286934a44abd8bd113d927754955563f53ed609f22de8e0d4a",
+        "public/media/work-mobile-scenes/tulancingo-frente-960.webp": "e20e8d279b594cfd0cd14e3c398e9571bb5b36493aadc46f33b32d6f06e6ff60"
+      }
+    },
+    {
+      "id": "tulancingo-catedral",
+      "toolOutput": "C:/Users/jjair/.codex/generated_images/01a1654a-ba64-7de3-9d02-a63668fc3751/exec-543bd88e-6998-442d-b61c-100a670a4c58.png",
+      "original": "design-assets/work-mobile-scenes/tulancingo-catedral.png",
+      "referencePaths": [
+        "C:/Users/jjair/OneDrive/Datos adjuntos/Documentos/LYNX DIGITAL AD/Pagina/SUBLIMACION Y DISEÑO ZZAAY/public/media/work/tulancingo-catedral-1280.webp",
+        "C:/Users/jjair/AppData/Local/Temp/codex-clipboard-2ea9ded2-eab5-43c5-8ad6-7701902c614b.png"
+      ],
+      "outputs": [
+        "public/media/work-mobile-scenes/tulancingo-catedral-480.webp",
+        "public/media/work-mobile-scenes/tulancingo-catedral-960.webp"
+      ],
+      "prompt": "Use case: compositing / product-mockup. Image 1 is the edit target, an existing photograph of a real white 11 oz Zzaay mug. Image 2 is ONLY a style and layout reference: borrow the warm golden photographic setting, never render its interface, typography, buttons, captions or thumbnail grid. Create ONLY one new clean landscape 5:4 product scene. Keep the mug from Image 1: preserve its ceramic shape, its handle position, the same exact viewing angle, all printed artwork, lettering, colors, proportions and motifs. Do not redraw, replace, simplify, add, or hallucinate any part of the mug print. Change the surroundings to a softly blurred warm honey-gold studio environment with cream/gold bokeh, a small out-of-focus cluster of burgundy and pink flowers along the far left edge and a subtle warm stone tabletop. Keep the short round black product platform below the mug, but remove the gray fabric backdrop and the cable. Soft flattering window light, realistic ceramic, warm but natural colors, editorial product photography. The complete mug and handle must be comfortably inside the composition, occupying about 70 percent of image height with a little breathing room above and on both sides. The black platform can meet the lower edge. Uniform scaling only, never perspective-warp the cup. Center the whole product including handle horizontally. No new text outside the original mug print, no captions, watermarks, logos or graphic overlays. These will be labelled as conceptual generated visualizations on the website, not documentary photographs.\nThis is VIEW 02: retain the nearly frontal handle-hidden view, with El Santo at upper left and the red railway engine along the lower front. Preserve the original view; do not invent a visible handle.",
+      "originalSha256": "35bed25917e4abe36403904829bf29bae562c33038451c06287333d51e7ae9ec",
+      "outputSha256": {
+        "public/media/work-mobile-scenes/tulancingo-catedral-480.webp": "3b11cdb642a323059cadd4645945bc377ebf6419a8cb31eea57d1d184cae0b44",
+        "public/media/work-mobile-scenes/tulancingo-catedral-960.webp": "1645e0e1e744ee6db2dcc41f272df69e1af834bbbba8b30285a4c478cb55a5ad"
+      }
+    },
+    {
+      "id": "tulancingo-tradiciones",
+      "toolOutput": "C:/Users/jjair/.codex/generated_images/01a1654a-ba64-7de3-9d02-a63668fc3751/exec-9d50f18c-8e5e-4305-84d6-f56bf3264678.png",
+      "original": "design-assets/work-mobile-scenes/tulancingo-tradiciones.png",
+      "referencePaths": [
+        "C:/Users/jjair/OneDrive/Datos adjuntos/Documentos/LYNX DIGITAL AD/Pagina/SUBLIMACION Y DISEÑO ZZAAY/public/media/work/tulancingo-tradiciones-1280.webp",
+        "C:/Users/jjair/AppData/Local/Temp/codex-clipboard-2ea9ded2-eab5-43c5-8ad6-7701902c614b.png"
+      ],
+      "outputs": [
+        "public/media/work-mobile-scenes/tulancingo-tradiciones-480.webp",
+        "public/media/work-mobile-scenes/tulancingo-tradiciones-960.webp"
+      ],
+      "prompt": "Use case: compositing / product-mockup. Image 1 is the edit target, an existing photograph of a real white 11 oz Zzaay mug. Image 2 is ONLY a style and layout reference: borrow the warm golden photographic setting, never render its interface, typography, buttons, captions or thumbnail grid. Create ONLY one new clean landscape 5:4 product scene. Keep the mug from Image 1: preserve its ceramic shape, its handle position, the same exact viewing angle, all printed artwork, lettering, colors, proportions and motifs. Do not redraw, replace, simplify, add, or hallucinate any part of the mug print. Change the surroundings to a softly blurred warm honey-gold studio environment with cream/gold bokeh, a small out-of-focus cluster of burgundy and pink flowers along the far left edge and a subtle warm stone tabletop. Keep the short round black product platform below the mug, but remove the gray fabric backdrop and the cable. Soft flattering window light, realistic ceramic, warm but natural colors, editorial product photography. The complete mug and handle must be comfortably inside the composition, occupying about 70 percent of image height with a little breathing room above and on both sides. The black platform can meet the lower edge. Uniform scaling only, never perspective-warp the cup. Center the whole product including handle horizontally. No new text outside the original mug print, no captions, watermarks, logos or graphic overlays. These will be labelled as conceptual generated visualizations on the website, not documentary photographs.\nThis is VIEW 03: retain the handle on the RIGHT, the red TULANCINGUENSE heading, and the barbacoa and food artwork on the front. Preserve the original cup design.",
+      "originalSha256": "7cbddc28edd14d43f342667fd9f289c52f53e0188226e9dec7419f0bc9528910",
+      "outputSha256": {
+        "public/media/work-mobile-scenes/tulancingo-tradiciones-480.webp": "17c81a92a102c26b2134485bcfac8617ec15e5bb5bf074351a95245c02c073f7",
+        "public/media/work-mobile-scenes/tulancingo-tradiciones-960.webp": "5872bb4bc45f22205b393b833c811caa1fd261dd413bba274cee8ff15d172e74"
+      }
+    }
+  ]
+}

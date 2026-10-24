@@ -1,0 +1,35 @@
+{
+  "name": "zzaay-estudio-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5174 --strictPort",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4174 --strictPort",
+    "test:e2e": "playwright test",
+    "test:compat": "playwright test --config playwright.compat.config.ts",
+    "media:prepare": "node scripts/prepare-media.mjs",
+    "media:hero": "node scripts/prepare-hero.mjs",
+    "media:premium": "node scripts/prepare-premium.mjs",
+    "media:personalization": "node scripts/prepare-personalization.mjs",
+    "media:process": "node scripts/prepare-process.mjs",
+    "media:work-mobile": "node scripts/prepare-work-mobile.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@fontsource-variable/bodoni-moda": "^5.2.8",
+    "gsap": "^3.15.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4"
+  }
+}

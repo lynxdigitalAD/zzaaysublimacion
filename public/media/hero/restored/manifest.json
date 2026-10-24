@@ -1,0 +1,129 @@
+{
+  "source": "design-assets/hero/Zzaay_Higgsfield_original_restaurado_3008x1280.mp4",
+  "sha256": "4773899f7d757b93ab306adc68bf5abf90dfd7cd479453abfcd91157ae9e74a8",
+  "provenance": "Restored conceptual video supplied by the user; no new video generated.",
+  "metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 3008,
+        "height": 1280,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "121"
+      }
+    ],
+    "format": {
+      "duration": "5.041667",
+      "size": "20143708"
+    }
+  },
+  "variants": {
+    "film.mp4": {
+      "path": "public/media/hero/restored/film.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 3008,
+          "height": 1280,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "24/1",
+          "nb_read_frames": "109"
+        }
+      ],
+      "format": {
+        "duration": "4.541667",
+        "size": "8599421"
+      },
+      "sha256": "d3905f2e945a489497f800def6783d35f03a2fd0bd5d7cb50a18360ad439f08e"
+    },
+    "film-medium.mp4": {
+      "path": "public/media/hero/restored/film-medium.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 818,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "24/1",
+          "nb_read_frames": "109"
+        }
+      ],
+      "format": {
+        "duration": "4.541667",
+        "size": "3688504"
+      },
+      "sha256": "de1b4f43cad9bc0070278bbbd7151fa07c8de2686a248f9a7691f7e8a00fa967"
+    },
+    "film-mobile.mp4": {
+      "path": "public/media/hero/restored/film-mobile.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 544,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "24/1",
+          "nb_read_frames": "109"
+        }
+      ],
+      "format": {
+        "duration": "4.541667",
+        "size": "1719148"
+      },
+      "sha256": "c2ab04c291fac8bed9d8ee3450c06f17905e956e90a4e34bd5fcd37feadc5a43"
+    }
+  },
+  "crop": false,
+  "displayFraming": "Desktop: cover with horizontal offset for the left text. Up to 800 CSS px: centered cover window, 100vw tall capped at 560px, fading continuously into live text over a dark atmospheric background. Exports preserve the source aspect ratio; CSS framing may crop the scenery.",
+  "audio": false,
+  "frameInterpolation": false,
+  "newVideoGenerated": false,
+  "seamlessLoopVerified": false,
+  "loopCrossfade": {
+    "enabled": true,
+    "method": "Linear tail-to-head blend integrated in the MP4, with the head overlap removed from the cycle.",
+    "durationSeconds": 0.5,
+    "frames": 12,
+    "sourceFrames": 121,
+    "outputFrames": 109,
+    "firstSourceFrame": 12,
+    "tailStartFrame": 109,
+    "outputDurationSeconds": 4.541666666666667,
+    "originalSourcePreserved": true,
+    "note": "A visual crossfade softens the reset; identical petal trajectories and fully natural motion continuity are not claimed."
+  },
+  "previousSource": {
+    "source": "hf_20261023_004040_2e1785fd-09ea-445c-815d-74a57617d751.mp4",
+    "sha256": "017f7bece51b98291a8e87bd559eabd4215e8b3985819187f51db5b69424d71e",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1504,
+          "height": 640,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "5.041667",
+        "size": "10575105"
+      }
+    }
+  }
+}

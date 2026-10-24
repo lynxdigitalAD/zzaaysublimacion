@@ -1,0 +1,49 @@
+{
+  "tool": "Built-in image_gen",
+  "background": "Transparent alpha preserved; only deterministic resizing/WebP encoding with FFmpeg",
+  "usage": "Conceptual interface illustrations and editorial brushstroke, not real products or an official logo.",
+  "assets": [
+    {
+      "name": "regalos",
+      "original": "design-assets/premium/icons/regalos.png",
+      "output": "public/assets/icons/occasions/regalos.webp",
+      "bytes": 16280,
+      "prompt": "Use case: stylized-concept. Asset type: finished bespoke occasion pictogram for a premium Mexican personalized ceramic studio website, Zzaay. Make ONE isolated editorial object illustration on genuinely transparent alpha background, square 1024x1024. Art direction: sculptural hand-cut paper and smooth matte ceramic, warm ivory #f7f4ed, deep wine #a13255, dusty blush #e7bdc6, restrained brushed champagne gold, tiny cobalt accent only if specified. Soft front-left studio light, short soft shadow immediately beneath the object, immaculate silhouette and readable bold forms at 64 pixels. Center one cohesive object group with 12% clear margin. Same restrained tactile collectible design family, elegant craft aesthetic, commercial final quality. No text, no letters, no logos, no watermark, no stars, no asterisks, no confetti, no geometric decorative marks, no frame, no colored background, no product mug, no interface mockup. Subject: one small warm ivory textured gift box tied with a broad flowing burgundy silk ribbon and a beautiful sculptural bow, with a dusty blush side panel. Premium personal gift, compact three-quarter perspective."
+    },
+    {
+      "name": "cumpleanos",
+      "original": "design-assets/premium/icons/cumpleanos.png",
+      "output": "public/assets/icons/occasions/cumpleanos.webp",
+      "bytes": 13788,
+      "prompt": "Use case: stylized-concept. Asset type: finished bespoke occasion pictogram for a premium Mexican personalized ceramic studio website, Zzaay. Make ONE isolated editorial object illustration on genuinely transparent alpha background, square 1024x1024. Art direction: sculptural hand-cut paper and smooth matte ceramic, warm ivory #f7f4ed, deep wine #a13255, dusty blush #e7bdc6, restrained brushed champagne gold, tiny cobalt accent only if specified. Soft front-left studio light, short soft shadow immediately beneath the object, immaculate silhouette and readable bold forms at 64 pixels. Center one cohesive object group with 12% clear margin. Same restrained tactile collectible design family, elegant craft aesthetic, commercial final quality. No text, no letters, no logos, no watermark, no stars, no asterisks, no confetti, no geometric decorative marks, no frame, no colored background, no product mug, no interface mockup. Subject: a small sculptural ivory birthday candle with burgundy spiral wax detail and a warm gold flame, mounted in a blush fluted paper birthday cake cup. One candle, one small cake; clear recognizable birthday silhouette."
+    },
+    {
+      "name": "bodas",
+      "original": "design-assets/premium/icons/bodas.png",
+      "output": "public/assets/icons/occasions/bodas.webp",
+      "bytes": 20258,
+      "prompt": "Use case: stylized-concept. Asset type: finished bespoke occasion pictogram for a premium Mexican personalized ceramic studio website, Zzaay. Make ONE isolated editorial object illustration on genuinely transparent alpha background, square 1024x1024. Art direction: sculptural hand-cut paper and smooth matte ceramic, warm ivory #f7f4ed, deep wine #a13255, dusty blush #e7bdc6, restrained brushed champagne gold, tiny cobalt accent only if specified. Soft front-left studio light, short soft shadow immediately beneath the object, immaculate silhouette and readable bold forms at 64 pixels. Center one cohesive object group with 12% clear margin. Same restrained tactile collectible design family, elegant craft aesthetic, commercial final quality. No text, no letters, no logos, no watermark, no stars, no asterisks, no confetti, no geometric decorative marks, no frame, no colored background, no product mug, no interface mockup. Subject: two intertwined champagne gold wedding bands resting on one soft burgundy silk ribbon tied into an elegant short bow, with a warm ivory paper detail. The rings have correct continuous circular geometry, paired in one compact cohesive group."
+    },
+    {
+      "name": "comuniones",
+      "original": "design-assets/premium/icons/comuniones.png",
+      "output": "public/assets/icons/occasions/comuniones.webp",
+      "bytes": 25924,
+      "prompt": "Use case: stylized-concept. Asset type: finished bespoke occasion pictogram for a premium Mexican personalized ceramic studio website, Zzaay. Make ONE isolated editorial object illustration on genuinely transparent alpha background, square 1024x1024. Art direction: sculptural hand-cut paper and smooth matte ceramic, warm ivory #f7f4ed, deep wine #a13255, dusty blush #e7bdc6, restrained brushed champagne gold, tiny cobalt accent only if specified. Soft front-left studio light, short soft shadow immediately beneath the object, immaculate silhouette and readable bold forms at 64 pixels. Center one cohesive object group with 12% clear margin. Same restrained tactile collectible design family, elegant craft aesthetic, commercial final quality. No text, no letters, no logos, no watermark, no stars, no asterisks, no confetti, no geometric decorative marks, no frame, no colored background, no product mug, no interface mockup. Subject: one ivory commemorative oval ceramic medallion with a delicately embossed olive sprig, held by a dusty blue and ivory ribbon, accompanied by one small olive branch. A thoughtful first communion keepsake, refined and serene. No cross or star decoration."
+    },
+    {
+      "name": "empresas",
+      "original": "design-assets/premium/icons/empresas.png",
+      "output": "public/assets/icons/occasions/empresas.webp",
+      "bytes": 13398,
+      "prompt": "Use case: stylized-concept. Asset type: finished bespoke occasion pictogram for a premium Mexican personalized ceramic studio website, Zzaay. Make ONE isolated editorial object illustration on genuinely transparent alpha background, square 1024x1024. Art direction: sculptural hand-cut paper and smooth matte ceramic, warm ivory #f7f4ed, deep wine #a13255, dusty blush #e7bdc6, restrained brushed champagne gold, tiny cobalt accent only if specified. Soft front-left studio light, short soft shadow immediately beneath the object, immaculate silhouette and readable bold forms at 64 pixels. Center one cohesive object group with 12% clear margin. Same restrained tactile collectible design family, elegant craft aesthetic, commercial final quality. No text, no letters, no logos, no watermark, no stars, no asterisks, no confetti, no geometric decorative marks, no frame, no colored background, no product mug, no interface mockup. Subject: a compact arrangement of two premium ivory and cobalt business stationery folders and one burgundy paper card fastened by a sculptural champagne gold binder clip. Entirely blank stationery without any text, monogram or logo. A recognizable custom business identity kit."
+    },
+    {
+      "name": "ribbon",
+      "original": "design-assets/premium/decorations/trazo-creativo.png",
+      "output": "public/assets/decorations/trazo-creativo.webp",
+      "bytes": 47302,
+      "prompt": "Use case: illustration-story. Asset type: final bespoke editorial brush ribbon for a premium Mexican creative ceramic studio website Zzaay. Create one single expressive physical brushstroke that flows from left to right through a graceful shallow loop, like a real wide flat brush carrying silky burgundy-magenta paint #a13255 with warm champagne gold highlights and ivory pigment streaks. Isolated on genuinely transparent alpha background. Landscape 3:1 composition, whole stroke visible, bold continuous gestural shape, tactile paint bristle detail at edges, beautifully controlled not messy, refined editorial calligraphic energy without forming a letter. At center the stroke folds in one loose ribbon-like loop, tapered ends. Soft realistic depth, not a vector. This represents an idea taking shape through design. NO stars, no asterisks, no flowers, no geometric icons, no text, no letters, no logo, no mug, no confetti, no splash dots, no colored backdrop, no interface. Keep all paint inside frame with 8% clear margin. Commercial quality, clean confident silhouette visible at 160px wide."
+    }
+  ]
+}

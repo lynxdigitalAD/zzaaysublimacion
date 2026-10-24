@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "tool": "image_gen (built-in)",
+  "intent": "generate",
+  "useCase": "product-mockup",
+  "reference": "User-provided layout screenshot codex-clipboard-1189be9c-7354-43b3-a23e-9503bbecb9d8.png; used for composition and mood, not edited.",
+  "provenance": "Three newly generated conceptual scenes for mobile process cards. They are not photographs of delivered customer projects.",
+  "assets": [
+    {
+      "id": "idea",
+      "name": "Nos cuentas tu idea",
+      "toolOutput": "C:/Users/jjair/.codex/generated_images/01a1654a-ba64-7de3-9d02-a63668fc3751/exec-c3244355-e1ba-4216-9d68-0cd78acee6ed.png",
+      "original": "design-assets/process-scenes/idea.png",
+      "outputs": [
+        "public/media/process-scenes/idea-360.webp",
+        "public/media/process-scenes/idea-720.webp"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: a photograph-like conceptual image for the right-hand picture area of a narrow mobile website process card, not a UI mockup. Generate one square high-quality image only, no card frame, no interface, no number or caption. Scene: warm cream and blush-pink studio table, a few pink rose petals and a softly blurred bouquet of dusty pink and burgundy roses in the back. Main subject: a beautiful white 11 oz straight cylindrical ceramic mug with a right-facing handle. On the mug only, a simple elegant thin black line drawing of a lightbulb with three tiny rays, no lettering. The mug sits on a pale warm stone tabletop and is fully visible with breathing space. Composition: mug centered at approximately 62% of image width and 56% of image height, occupying roughly 55% of image width. Flowers and background provide a soft warm setting, golden window light, shallow depth of field, polished premium product photography. No hands, no people, no extra mugs, no watermarks, no logos, no visible text. This is a conceptual illustration, never an actual delivered customer order.",
+      "originalSha256": "c3ba750f06fe92611416dce8d994dee42626dbf9ebb0e3fa5c674c7aa0ffc592",
+      "outputSha256": {
+        "public/media/process-scenes/idea-360.webp": "bd7cc82dc96dd79a24671a170ac13b19084e9a0fd6c747753119f2a510d5ff30",
+        "public/media/process-scenes/idea-720.webp": "414a6f483a48f391389c14782efa04e42e87a9e826f730c276db94ce02e3fbbf"
+      }
+    },
+    {
+      "id": "juntos",
+      "name": "Le damos forma juntos",
+      "toolOutput": "C:/Users/jjair/.codex/generated_images/01a1654a-ba64-7de3-9d02-a63668fc3751/exec-6b144cab-b893-4a10-bb42-f29ad0510c2b.png",
+      "original": "design-assets/process-scenes/juntos.png",
+      "outputs": [
+        "public/media/process-scenes/juntos-360.webp",
+        "public/media/process-scenes/juntos-720.webp"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: a photograph-like conceptual image for the right-hand picture area of a narrow mobile website process card, not a UI mockup. Generate one square high-quality image only, no card frame, no interface, no number or caption. Scene: warm cream and blush-pink studio table, a few pink rose petals, soft burgundy satin cloth in the lower foreground and a softly blurred bouquet of dusty pink and burgundy roses in the back. Main subject: a beautiful white 11 oz straight cylindrical ceramic mug with a right-facing handle. On the mug only, one small elegant hand-drawn burgundy outline heart, no lettering. The mug sits on a pale warm stone tabletop and is fully visible with breathing space. Composition: mug centered at approximately 62% of image width and 56% of image height, occupying roughly 55% of image width. Flowers and background provide a soft warm setting, golden window light, shallow depth of field, polished premium product photography. No hands, no people, no extra mugs, no watermarks, no logos, no visible text. This is a conceptual illustration, never an actual delivered customer order.",
+      "originalSha256": "524cca20ee82cc4cb9522331abc14e4b9e89dade6e89d827dee8e9b317a1ef98",
+      "outputSha256": {
+        "public/media/process-scenes/juntos-360.webp": "babffad40d897b2f3b81a7d2e1052551de6691d09ab778f1969d7482f7c09261",
+        "public/media/process-scenes/juntos-720.webp": "d666b4ba445901dd71cb716b29115d4e8390eedd1bf6f0b6e60f8c163f15800c"
+      }
+    },
+    {
+      "id": "taza",
+      "name": "Tu historia se vuelve taza",
+      "toolOutput": "C:/Users/jjair/.codex/generated_images/01a1654a-ba64-7de3-9d02-a63668fc3751/exec-bfd3fdf2-6d2f-41d1-89b5-0243aba7eea1.png",
+      "original": "design-assets/process-scenes/taza.png",
+      "outputs": [
+        "public/media/process-scenes/taza-360.webp",
+        "public/media/process-scenes/taza-720.webp"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: a photograph-like conceptual image for the right-hand picture area of a narrow mobile website process card, not a UI mockup. Generate one square high-quality image only, no card frame, no interface, no number or caption. Scene: warm cream and blush-pink studio table, a few pink rose petals, soft burgundy satin cloth in the lower foreground and a softly blurred bouquet of dusty pink and burgundy roses in the back. Main subject: a beautiful white 11 oz straight cylindrical ceramic mug with a right-facing handle, printed with a charming colorful illustrated Mexican town inspired by Tulancingo, Hidalgo: a golden church, a tiny bandstand, floral details and small magenta hearts in turquoise, pink, warm yellow and violet. On the print, only the word \"Tulancingo\" in clear dark-blue handwritten lettering beneath the illustration. No other lettering. The mug sits on a pale warm stone tabletop and is fully visible with breathing space. Composition: mug centered at approximately 62% of image width and 56% of image height, occupying roughly 55% of image width. Golden window light, shallow depth of field, polished premium product photography. No hands, no people, no extra mugs, no watermarks, no brand logos. This is a new conceptual sample design, not a reconstruction or a photograph of an existing customer project.",
+      "originalSha256": "140e2115674c8cf37d6f4a6d4797785d5ee14fb9efce5e28ac81d4d1f8a865a5",
+      "outputSha256": {
+        "public/media/process-scenes/taza-360.webp": "f5a27b3ad3f8bb11316c2ff4860f409a839e01c995b7b52d637aa2a4cbc48872",
+        "public/media/process-scenes/taza-720.webp": "5b0f89622a68b4d543c51bd119f00845272cda8e0789a544cfd836af99c2264f"
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+Utiliza la imagen proporcionada como referencia visual exacta y como fotograma inicial para generar un video publicitario cinematográfico, hiperrealista, de alta resolución y formato horizontal 16:9, destinado al hero de una página web premium.
+
+**OBJETIVO PRINCIPAL**
+
+Dar vida a la fotografía original mediante movimientos suaves, naturales, elegantes y perfectamente sincronizados, conservando la composición, iluminación, colores, perspectiva y todos los elementos existentes.
+
+**1. ANIMACIÓN DE LA TAZA**
+
+La taza de cerámica blanca personalizada con ilustraciones de Tulancingo debe permanecer como protagonista absoluto de la escena.
+
+Hacer que levite suavemente en el aire con un movimiento vertical continuo, delicado y realista:
+
+- La taza asciende lentamente unos pocos centímetros.
+- Se detiene suavemente al alcanzar su altura máxima.
+- Desciende de manera natural hasta su posición inicial.
+- Repite el movimiento con un ritmo constante y elegante.
+- Utilizar una interpolación suave tipo ease-in-out.
+- Mantener exactamente la misma inclinación, orientación, tamaño y perspectiva.
+- No hacer que gire sobre sí misma.
+- No deformar la taza ni su asa.
+- No alterar sus ilustraciones, letras, colores, formas ni elementos impresos.
+- Conservar los reflejos realistas de la cerámica.
+- La sombra debajo de la taza debe variar ligeramente de intensidad y suavidad según su altura, reforzando la sensación de levitación.
+
+El movimiento debe sentirse ligero y sofisticado, como si la taza estuviera suspendida mediante una fuerza invisible.
+
+**2. MOVIMIENTO DE LOS ELEMENTOS DE COLORES**
+
+Animar los elementos decorativos que ya aparecen alrededor de la taza: pétalos, piezas de papel decorativo y figuras ligeras de color rosa, fucsia, amarillo, naranja, azul, turquesa y morado.
+
+Simular una brisa ambiental suave y natural.
+
+Cada elemento debe moverse de manera ligeramente independiente:
+
+- Algunos flotan lentamente hacia los lados.
+- Otros ascienden o descienden unos centímetros.
+- Algunos realizan pequeñas rotaciones naturales.
+- Los elementos más cercanos a la cámara presentan un movimiento ligeramente más perceptible.
+- Los elementos del fondo tienen movimientos más discretos.
+- Mantener la profundidad de campo original.
+- Conservar los mismos colores intensos y saturados.
+- Evitar movimientos rápidos, bruscos o caóticos.
+
+La sensación debe ser la de una celebración llena de color y vida, pero con una dirección artística elegante y profesional.
+
+Los pétalos y elementos decorativos no deben atravesar la taza, cubrir sus ilustraciones principales ni aparecer o desaparecer inexplicablemente.
+
+**3. AMBIENTE Y FONDO**
+
+Conservar exactamente el escenario original: arquitectura histórica desenfocada, vegetación, flores, cielo azul, iluminación cálida, estructuras decorativas y todos los elementos existentes.
+
+Mantener el fondo prácticamente estático para conservar el protagonismo de la taza.
+
+Permitir únicamente movimientos ambientales extremadamente sutiles cuando resulten naturales, como una ligera oscilación de hojas o flores.
+
+No modificar edificios, reconstruir el escenario ni agregar objetos nuevos.
+
+**4. ILUMINACIÓN CINEMATOGRÁFICA**
+
+Mantener la iluminación original de día soleado, con colores vivos, contrastes equilibrados y reflejos realistas sobre la superficie de la taza.
+
+Conservar las sombras naturales y la profundidad visual.
+
+No cambiar la hora del día ni aplicar filtros de color diferentes.
+
+**5. CÁMARA Y COMPOSICIÓN**
+
+La cámara debe permanecer completamente fija.
+
+- Sin zoom.
+- Sin paneos.
+- Sin acercamientos.
+- Sin cambios de encuadre.
+- Sin rotaciones.
+- Sin movimientos bruscos.
+- Sin recortar partes de la imagen original.
+
+Todo el movimiento debe provenir exclusivamente de la taza suspendida y de los elementos ambientales.
+
+Mantener la misma composición horizontal de la imagen de referencia durante toda la animación.
+
+**6. BUCLE PERFECTO (SEAMLESS LOOP)**
+
+Crear una animación de aproximadamente 8 segundos que pueda reproducirse indefinidamente.
+
+La taza debe completar dos movimientos suaves de ascenso y descenso durante el video.
+
+Los elementos decorativos deben seguir trayectorias suaves y cíclicas.
+
+El último fotograma debe conectar naturalmente con el primero, sin saltos de posición, cambios bruscos de iluminación ni movimientos interrumpidos.
+
+**7. CALIDAD FINAL**
+
+Estilo: fotografía comercial de producto premium, animación cinematográfica hiperrealista, acabado publicitario profesional.
+
+Resolución: 4K horizontal (3840 × 2160), si está disponible, o Full HD (1920 × 1080).
+
+Formato: 16:9.
+
+Fotogramas: 30 FPS.
+
+Duración: 8 segundos.
+
+Audio: sin sonido.
+
+Movimiento: suave, fluido y natural.
+
+**RESTRICCIONES ABSOLUTAS**
+
+No modificar el diseño de la taza.
+
+No alterar los textos impresos.
+
+No generar nuevas letras ni corregir las existentes.
+
+No cambiar los colores originales.
+
+No agregar productos nuevos.
+
+No agregar textos publicitarios, logotipos adicionales, botones ni marcas de agua.
+
+No agregar partículas excesivas, explosiones, líquidos o efectos fantasiosos.
+
+No deformar el asa ni los bordes.
+
+No introducir artefactos visuales, parpadeos o inconsistencias entre fotogramas.
+
+No transformar los elementos decorativos en otros objetos.
+
+No cambiar el fondo original.
+
+**RESULTADO ESPERADO**
+
+Un video publicitario inmersivo y elegante donde la taza personalizada de Tulancingo levita lentamente mientras los elementos decorativos de colores flotan alrededor, creando una atmósfera vibrante, creativa y cinematográfica.
+
+Debe parecer que la fotografía original ha cobrado vida, conservando íntegramente su identidad visual.
+
+El resultado debe ser apropiado para utilizarse como video de fondo del hero de una página web profesional de sublimación y diseño, con reproducción automática silenciosa y repetición infinita.

@@ -1,0 +1,16 @@
+.site-root .personalization .idea-choices { position: relative; }
+.site-root .personalization .idea-choices button { transition: color .2s ease; }
+.site-root .personalization .idea-choices button:hover { color: var(--accent); }
+.site-root .personalization .idea-label { display: inline-grid; }
+.site-root .personalization .idea-label > span, .site-root .personalization .idea-label::after { grid-area: 1 / 1; }
+.site-root .personalization .idea-label::after { content: attr(data-label); font-weight: 600; visibility: hidden; }
+.site-root .personalization .idea-active-indicator { position: absolute; left: 0; bottom: -1px; width: 1px; height: 3px; opacity: 0; background: var(--accent); transform-origin: left center; pointer-events: none; }
+.site-root .personalization .idea-choices[data-indicator-ready='true'] button::after { display: none; }
+.site-root .personalization .idea-detail-content { opacity: 0; animation: none; }
+.site-root .personalization .idea-detail-content.is-active { opacity: 1; animation: none; }
+.site-root .personalization .photo-mat img { visibility: visible; transition: none; }
+.site-root .personalization .idea-load-error { color: var(--accent); font-size: 18px; line-height: 1.6; margin-top: 16px; }
+.site-root .personalization .idea-load-error:empty { display: none; }
+@media (max-width: 359px) {
+  .site-root .personalization .idea-label > span, .site-root .personalization .idea-label::after { font-weight: 400; }
+}

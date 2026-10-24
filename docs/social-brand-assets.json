@@ -1,0 +1,26 @@
+{
+  "assets": [
+    {
+      "network": "facebook",
+      "output": "public/assets/icons/brands/facebook-primary.png",
+      "archiveEntry": "Facebook Brand Asset Pack/Logo/Primary Logo/Facebook_Logo_Primary.png",
+      "sourcePage": "https://www.meta.com/brand/resources/facebook/logo/",
+      "downloadUrl": "https://scontent.fpaz4-1.fna.fbcdn.net/v/t39.8562-6/380701377_2250872795121673_2315381206050858273_n.zip/Facebook-Brand-Asset-Pack.zip?sdl=1&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=fcf380&_nc_ohc=vobgT2bYhiAQ7kNvwHixL2g&_nc_oc=AdoebSrXAf5y6v3cv09lIKzgIBwt2yAWbVpz_u_oRCqzCeZbHmsm_rHyjovDEd7m_S0&_nc_zt=14&_nc_ht=scontent.fpaz4-1.fna&_nc_gid=_Xg19lpFlnhNXe1OGG5kgA&_nc_ss=7c289&oh=00_AQPjcjiVpu-1oeyS6WcnxB6dP8gcXpO6V7GyHZfTUJpnHA&oe=6AE0DB9D",
+      "width": 2084,
+      "height": 2084,
+      "sha256": "2adfd474d91fd20c51084309ed000c1ae6cc7f5f70af14d375930f5a71301308",
+      "altered": false
+    },
+    {
+      "network": "tiktok",
+      "output": "public/assets/icons/brands/tiktok-original.png",
+      "archiveEntry": "Dev Portal Logo Pack/TikTok Logo Pack/TikTok – Icons/TikTok_Icon_Black_Circle.png",
+      "sourcePage": "https://developers.tiktok.com/docs/en/getting-started-design-guidelines",
+      "downloadUrl": "https://sf16-va.tiktokcdn.com/obj/eden-va2/uvzhqeh7nuhd/tt4d/logo-pack.zip",
+      "width": 1200,
+      "height": 1200,
+      "sha256": "a21b43e31bb9def6d01c8c433a577353ae3efc8003a6257e8f3db3fd2dc94e61",
+      "altered": false
+    }
+  ]
+}

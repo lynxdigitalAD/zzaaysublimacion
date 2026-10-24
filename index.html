@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Reset before rendering so a reload cannot restore the last scroll or section.
+      if (performance.getEntriesByType('navigation')[0]?.type === 'reload') {
+        history.scrollRestoration = 'manual'
+        history.replaceState(history.state, '', location.pathname + location.search)
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+      }
+    </script>
+    <meta name="theme-color" content="#f7f4ed" />
+    <meta name="description" content="Tu idea, hecha taza. Sublimación y Diseño Zzaay: tazas personalizadas de 11 oz para tus personas, celebraciones y marcas. Tulancingo, Hidalgo." />
+    <link rel="icon" type="image/png" href="/media/brand/favicon.png" />
+    <title>Zzaay — Tu idea. Hecha taza.</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

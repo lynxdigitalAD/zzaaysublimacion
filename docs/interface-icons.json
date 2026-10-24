@@ -1,0 +1,83 @@
+{
+  "note": "Vendor exports, geometry unchanged; sprite assembles their original paths and viewBoxes. Color inherited from interface. Not generated illustrations.",
+  "icons": [
+    {
+      "name": "arrow",
+      "source": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/bold/arrow-up-right-bold.svg",
+      "sha256": "28687c40e5980d0321a33fe5021d2060fa49633d65127f80009f8c44cbe95418",
+      "family": "Phosphor Bold"
+    },
+    {
+      "name": "down",
+      "source": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/bold/arrow-down-bold.svg",
+      "sha256": "193222b87a796f1c56336f51cb041cfd2a6c899ae0a027248a63fc183758a364",
+      "family": "Phosphor Bold"
+    },
+    {
+      "name": "plus",
+      "source": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/bold/plus-bold.svg",
+      "sha256": "3d20a4b2e00657baeb922bed94f13fbfa288968b738991d047dd252cb64005d8",
+      "family": "Phosphor Bold"
+    },
+    {
+      "name": "close",
+      "source": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/bold/x-bold.svg",
+      "sha256": "d540487912a267d83c495954b24ca07981002fda05ee2ea0b492d8fc188d1c3e",
+      "family": "Phosphor Bold"
+    },
+    {
+      "name": "play",
+      "source": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/play-fill.svg",
+      "sha256": "6d2a75bc5700a68dec50516ebae121c307807e4e6fcca5c863e5b4af006df880",
+      "family": "Phosphor Fill"
+    },
+    {
+      "name": "pause",
+      "source": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/pause-fill.svg",
+      "sha256": "156d3cdfa5cea803caec50b35f49bc635070c8bd84e7fe78df94b025017ccee1",
+      "family": "Phosphor Fill"
+    },
+    {
+      "name": "menu",
+      "source": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/bold/list-bold.svg",
+      "sha256": "eebf2179178a5d4e93097a35f6a02efec45db6a88c1fbbc027fe81a167fd910f",
+      "family": "Phosphor Bold"
+    },
+    {
+      "name": "chevron",
+      "source": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/bold/caret-right-bold.svg",
+      "sha256": "03cadd956d715541432ec8dc2eda1c53ca341af7d3ccecb8dd32c5b9747e290f",
+      "family": "Phosphor Bold"
+    },
+    {
+      "name": "check",
+      "source": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/bold/check-bold.svg",
+      "sha256": "d0ca4e324ff5bb3a1a3bacb9f7580359b8e03cc6862a614d5ed14458db64bedf",
+      "family": "Phosphor Bold"
+    },
+    {
+      "name": "whatsapp",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/whatsapp.svg",
+      "sha256": "8fb209a53a61618c3483594b3e070481a35575d6aaecbe00a6fe386670c8fb1c",
+      "family": "Simple Icons / WhatsApp"
+    },
+    {
+      "name": "coffee",
+      "source": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/regular/coffee.svg",
+      "sha256": "4ef8c4f0643ee992bf05f10c51c06d695f5ef924e0a1c85394b7626b548338fd",
+      "family": "Phosphor Regular"
+    },
+    {
+      "name": "facebook",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/facebook.svg",
+      "sha256": "b06d18d844ed621b89faffb1a33440cc0ec4f1ffea9f36191f50db19a47c59a6",
+      "family": "Simple Icons"
+    },
+    {
+      "name": "tiktok",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/tiktok.svg",
+      "sha256": "6f54ac8d325faacea8935bdc44cbed60206a6b408641799e5fea1cba7c1a0af7",
+      "family": "Simple Icons"
+    }
+  ]
+}

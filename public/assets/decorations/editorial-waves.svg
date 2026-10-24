@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 100" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="blue" x2="1" y2="1">
+      <stop stop-color="#7da3c7" stop-opacity=".44"/>
+      <stop offset="1" stop-color="#b6cfe4" stop-opacity=".24"/>
+    </linearGradient>
+    <g id="waves">
+      <path d="M0 0H74C145 18 231 72 305 100H0Z" fill="url(#blue)"/>
+      <path d="M0 45C62 7 105 31 164 47C223 64 266 92 305 100H0Z" fill="#6e9ec4" opacity=".17"/>
+      <path d="M0 74C79 25 135 26 203 61C245 82 274 95 305 100H0Z" fill="#9abdd9" opacity=".24"/>
+    </g>
+  </defs>
+  <use href="#waves"/>
+  <use href="#waves" transform="translate(1800) scale(-1 1)"/>
+</svg>
